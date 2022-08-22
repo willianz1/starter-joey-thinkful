@@ -1,0 +1,64 @@
+body{
+    margin: 0; 
+}
+
+header{
+    background-color: #0B1C51;
+    padding: 3px;
+    margin: 0;  
+}
+
+header h1{
+    display: flex; 
+    color: white; 
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 52px;
+    padding: none;
+}
+
+header nav{
+    display: flex; 
+    margin: none; 
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    padding-left: none;
+    padding-top: none;
+    display: flex; 
+    flex-direction: row;
+    font-size: 24px;
+    font-family: Montserrat;
+}
+
+header nav ul a{
+    color: white; 
+    display: flex; 
+    padding: 0 12px 0 0; 
+    text-decoration: none;
+}
+header nav ul a:last-child{
+    padding-right: none;
+}
+
+/* Desktop view */
+
+@media all and (min-width: 600px){
+    header{
+        display: flex; 
+        justify-content: space-between;
+    }
+    header h1{
+        font-size: 48px; 
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav ul li a{
+
+    }
+}
